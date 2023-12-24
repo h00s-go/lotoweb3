@@ -2,9 +2,7 @@ module github.com/h00s/lotoweb3
 
 go 1.21.5
 
-replace github.com/h00s/raptor => /Users/h00s/Stuff/dev/godev/raptor
-
-require github.com/h00s/raptor v0.0.2
+require github.com/h00s/raptor v0.0.4
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
@@ -15,8 +13,8 @@ require (
 	github.com/gofiber/template v1.8.2 // indirect
 	github.com/gofiber/template/jet/v2 v2.1.6 // indirect
 	github.com/gofiber/utils v1.1.0 // indirect
-	github.com/google/uuid v1.4.0 // indirect
-	github.com/klauspost/compress v1.17.3 // indirect
+	github.com/google/uuid v1.5.0 // indirect
+	github.com/klauspost/compress v1.17.4 // indirect
 	github.com/lmittmann/tint v1.0.3 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -25,5 +23,5 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.51.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/sys v0.14.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
 )
