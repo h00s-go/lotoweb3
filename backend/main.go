@@ -6,10 +6,7 @@ import (
 )
 
 func main() {
-	r := raptor.NewRaptorAPI(raptor.Config{
-		Address: "localhost",
-		Port:    3000,
-	})
+	r := raptor.NewRaptor()
 
 	r.Controllers(config.Controllers())
 	r.Routes(config.Routes())
