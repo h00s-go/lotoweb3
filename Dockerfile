@@ -20,7 +20,6 @@ FROM alpine:latest
 
 WORKDIR /app
 
-# Copy the pre-built binary file from the previous stage
 COPY --from=backend /out/lotoweb ./
 COPY --from=frontend /app/build ./public
 
