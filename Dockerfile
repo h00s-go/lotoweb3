@@ -14,7 +14,7 @@ WORKDIR /app
 
 COPY frontend ./
 
-RUN bun install --frozen-lockfile && \
+RUN bun install --production --frozen-lockfile && \
     bun run build
 
 FROM alpine:latest
