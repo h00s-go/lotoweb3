@@ -14,7 +14,8 @@ WORKDIR /app
 
 COPY frontend ./
 
-RUN bun run build
+RUN bun install && \
+    bun run build
 
 FROM alpine:latest
 
