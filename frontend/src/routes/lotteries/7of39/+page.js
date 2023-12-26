@@ -1,5 +1,7 @@
-export async function load({ params }) {
-  const response = await fetch('http://localhost:3000/api/v1/lotteries/7of39');
+import { PUBLIC_API_URL } from '$env/static/public'
+
+export async function load({ fetch, params }) {
+  const response = await fetch(PUBLIC_API_URL + '/lotteries/7of39');
   const numbers = await response.json();
 
   return {
