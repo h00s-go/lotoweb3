@@ -7,5 +7,5 @@ type SPAController struct {
 }
 
 func (hc *SPAController) Index(c *raptor.Context) error {
-	return c.SendFile("index.html")
+	return c.SendFile("public/index.html")
 }
