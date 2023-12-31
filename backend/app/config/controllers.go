@@ -6,16 +6,8 @@ import (
 )
 
 func Controllers() raptor.Controllers {
-	lc := &controllers.LotteriesController{}
-	sc := &controllers.SPAController{}
-
 	return raptor.RegisterControllers(
-		raptor.RegisterController(lc,
-			lc.Get6of45,
-			lc.Get7of39,
-		),
-		raptor.RegisterController(sc,
-			sc.Index,
-		),
+		&controllers.LotteriesController{},
+		&controllers.SPAController{},
 	)
 }
