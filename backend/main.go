@@ -8,6 +8,7 @@ import (
 func main() {
 	r := raptor.NewRaptor()
 
+	r.Services(config.Services())
 	r.Controllers(config.Controllers())
 	r.Routes(config.Routes())
 

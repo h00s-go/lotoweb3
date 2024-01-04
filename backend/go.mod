@@ -2,16 +2,14 @@ module github.com/h00s/lotoweb3
 
 go 1.21.5
 
-require github.com/h00s/raptor v0.1.0
+require github.com/h00s/raptor v0.1.2
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
-	github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53 // indirect
-	github.com/CloudyKit/jet/v6 v6.2.0 // indirect
 	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/gofiber/fiber/v2 v2.51.0 // indirect
 	github.com/gofiber/template v1.8.2 // indirect
-	github.com/gofiber/template/jet/v2 v2.1.6 // indirect
+	github.com/gofiber/template/html/v2 v2.0.5 // indirect
 	github.com/gofiber/utils v1.1.0 // indirect
 	github.com/google/uuid v1.5.0 // indirect
 	github.com/klauspost/compress v1.17.4 // indirect
