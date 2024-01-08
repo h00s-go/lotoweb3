@@ -2,6 +2,6 @@
   export let data;
 </script>
 
-<h1>7/39</h1>
+<h1>7/35</h1>
 
 <p>{data.numbers}</p>

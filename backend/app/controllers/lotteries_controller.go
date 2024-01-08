@@ -15,6 +15,6 @@ func (hc *LotteriesController) Get6of45(c *raptor.Context) error {
 	return c.JSON(hc.Ls.Get6of45())
 }
 
-func (hc *LotteriesController) Get7of39(c *raptor.Context) error {
-	return c.JSON(hc.Ls.Get7of39())
+func (hc *LotteriesController) Get7of35(c *raptor.Context) error {
+	return c.JSON(hc.Ls.Get7of35())
 }
