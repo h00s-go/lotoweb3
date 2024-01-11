@@ -1,8 +1,8 @@
 package controllers
 
 import (
+	"github.com/go-raptor/raptor"
 	"github.com/h00s/lotoweb3/app/services"
-	"github.com/h00s/raptor"
 )
 
 type LotteriesController struct {

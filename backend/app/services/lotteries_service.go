@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"slices"
 
-	"github.com/h00s/raptor"
+	"github.com/go-raptor/raptor"
 )
 
 type LotteriesService struct {
