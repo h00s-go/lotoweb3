@@ -2,6 +2,11 @@
   export let data;
 </script>
 
-<h1>7/35</h1>
-
-<p>{data.numbers}</p>
+<div class="card">
+  <div class="card-header">
+    <b>7 / 35</b>
+  </div>
+  <div class="card-body">
+    {data.numbers}
+  </div>
+</div>
