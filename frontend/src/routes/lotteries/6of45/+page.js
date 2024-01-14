@@ -1,8 +1,7 @@
-import { PUBLIC_API_URL } from '$env/static/public'
+import { pickOne } from '$lib/lotteries'
 
 export async function load({ fetch, params }) {
-  const response = await fetch(PUBLIC_API_URL + '/lotteries/pick-one?numbers=6&max=45');
-  const numbers = await response.json();
+  const numbers = await pickOne(6, 45);
 
   return {
     numbers: numbers.join(', '),
