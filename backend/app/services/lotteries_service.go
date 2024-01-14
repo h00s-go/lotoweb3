@@ -25,10 +25,14 @@ func (ls *LotteriesService) numbers(count, max int) []int {
 	return numbers
 }
 
-func (ls *LotteriesService) Get6of45() []int {
-	return ls.numbers(6, 45)
+func (ls *LotteriesService) PickOne(numbers, max int) []int {
+	return ls.numbers(numbers, max)
 }
 
-func (ls *LotteriesService) Get7of35() []int {
-	return ls.numbers(7, 35)
+func (ls *LotteriesService) PickMany(count, numbers, max int) [][]int {
+	collection := make([][]int, count)
+	for i := 0; i < count; i++ {
+		collection[i] = ls.numbers(numbers, max)
+	}
+	return collection
 }

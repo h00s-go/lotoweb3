@@ -11,10 +11,15 @@ type LotteriesController struct {
 	Ls *services.LotteriesService
 }
 
-func (hc *LotteriesController) Get6of45(c *raptor.Context) error {
-	return c.JSON(hc.Ls.Get6of45())
+func (hc *LotteriesController) PickOne(c *raptor.Context) error {
+	numbers := c.QueryInt("numbers", 6)
+	max := c.QueryInt("max", 45)
+	return c.JSON(hc.Ls.PickOne(numbers, max))
 }
 
-func (hc *LotteriesController) Get7of35(c *raptor.Context) error {
-	return c.JSON(hc.Ls.Get7of35())
+func (hc *LotteriesController) PickMany(c *raptor.Context) error {
+	count := c.QueryInt("count", 5)
+	numbers := c.QueryInt("numbers", 6)
+	max := c.QueryInt("max", 45)
+	return c.JSON(hc.Ls.PickMany(count, numbers, max))
 }
