@@ -4,13 +4,13 @@
 
   onMount(async () => {
     const response = await fetch(PUBLIC_API_URL + '/lotteries/pick-one?numbers=' + numbers + '&max=' + max);
-    pick = await response.json();
-    pick = pick.join(', ');
+    let result = await response.json();
+    pick = result.join(', ');
   });
 
   export let numbers;
   export let max;
-  let pick = 'Loading...';
+  let pick = '...';
 </script>
 
 <div class="card">
@@ -18,6 +18,6 @@
     <b>{ numbers } / { max }</b>
   </div>
   <div class="card-body">
-    {pick}
+    <p>{ pick }</p>
   </div>
 </div>
