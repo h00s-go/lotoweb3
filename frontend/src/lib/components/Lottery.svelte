@@ -7,6 +7,8 @@
     <b>{ lottery.numbers } / { lottery.max }</b>
   </div>
   <div class="card-body">
-    <p>{ lottery.pick }</p>
+    { #each lottery.picks as pick }
+      <p class="pb-2">{ pick.join(', ') }</p>
+    { /each }
   </div>
 </div>
