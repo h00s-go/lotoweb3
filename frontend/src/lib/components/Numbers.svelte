@@ -1,16 +1,7 @@
 <script>
-  import { PUBLIC_API_URL } from '$env/static/public'
-  import { onMount } from 'svelte';
-
-  onMount(async () => {
-    const response = await fetch(PUBLIC_API_URL + '/lotteries/pick-one?numbers=' + numbers + '&max=' + max);
-    let result = await response.json();
-    pick = result.join(', ');
-  });
-
   export let numbers;
   export let max;
-  let pick = '...';
+  export let pick;
 </script>
 
 <div class="card">
