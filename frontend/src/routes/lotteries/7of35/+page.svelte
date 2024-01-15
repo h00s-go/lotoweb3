@@ -1,7 +1,7 @@
 <script>
-  import Numbers from '$lib/components/Numbers.svelte';
+  import Lottery from '$lib/components/Lottery.svelte';
 
   export let data;
 </script>
 
-<Numbers numbers=7 max=35 pick={ data.numbers }/>
+<Lottery numbers=7 max=35 pick={ data.numbers }/>
