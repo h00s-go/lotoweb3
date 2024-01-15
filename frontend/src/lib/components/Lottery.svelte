@@ -1,14 +1,12 @@
 <script>
-  export let numbers;
-  export let max;
-  export let pick;
+  export let lottery;
 </script>
 
 <div class="card">
   <div class="card-header">
-    <b>{ numbers } / { max }</b>
+    <b>{ lottery.numbers } / { lottery.max }</b>
   </div>
   <div class="card-body">
-    <p>{ pick }</p>
+    <p>{ lottery.pick }</p>
   </div>
 </div>

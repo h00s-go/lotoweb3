@@ -4,4 +4,4 @@
   export let data;
 </script>
 
-<Lottery numbers=6 max=45 pick={ data.numbers }/>
+<Lottery lottery={ data.lottery } />

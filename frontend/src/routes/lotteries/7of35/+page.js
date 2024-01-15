@@ -1,9 +1,9 @@
 import { lotteries } from '../lotteries.js';
 
 export async function load({ fetch }) {
-  const numbers = await lotteries(fetch, 7, 35);
+  const lottery = await lotteries(fetch, 7, 35);
 
   return {
-    numbers: numbers,
+    lottery: lottery,
   };
 }
