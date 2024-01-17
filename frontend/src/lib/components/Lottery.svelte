@@ -7,8 +7,23 @@
     <b>{ lottery.numbers } / { lottery.max }</b>
   </div>
   <div class="card-body">
-    { #each lottery.picks as pick }
-      <p class="pb-2">{ pick.join(', ') }</p>
-    { /each }
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          { #each lottery.picks[0] as number, index }
+            <th>#{ index + 1 }</th>
+          { /each }
+        </tr>
+      </thead>
+      <tbody>
+        { #each lottery.picks as pick }
+          <tr>
+            { #each pick as number }
+              <td>{ number }</td>
+            { /each }
+          </tr>
+        { /each }
+      </tbody>
+    </table>
   </div>
 </div>
