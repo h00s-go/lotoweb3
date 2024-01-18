@@ -1,7 +1,8 @@
 package services
 
 import (
-	"math/rand"
+	"crypto/rand"
+	"math/big"
 	"slices"
 
 	"github.com/go-raptor/raptor"
@@ -15,7 +16,11 @@ func (ls *LotteriesService) numbers(count, max int) []int {
 	var numbers []int
 
 	for i := 0; len(numbers) < count; i++ {
-		number := rand.Intn(max) + 1
+		numberBig, err := rand.Int(rand.Reader, big.NewInt(int64(max)))
+		if err != nil {
+			panic(err)
+		}
+		number := int(numberBig.Int64()) + 1
 		if slices.Contains(numbers, number) {
 			continue
 		}
