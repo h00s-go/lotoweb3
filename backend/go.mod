@@ -2,7 +2,9 @@ module github.com/h00s/lotoweb3
 
 go 1.21.6
 
-require github.com/go-raptor/raptor v0.4.3
+// replace github.com/go-raptor/raptor => ../../go-raptor/raptor
+
+require github.com/go-raptor/raptor v0.4.11
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
