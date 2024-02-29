@@ -5,11 +5,9 @@ import (
 )
 
 func App() *raptor.AppInitializer {
-	services, controllers := ServicesAndControllers()
-
 	return &raptor.AppInitializer{
-		Services:    services,
-		Controllers: controllers,
+		Services:    Services(),
 		Middlewares: Middlewares(),
+		Controllers: Controllers(),
 	}
 }
