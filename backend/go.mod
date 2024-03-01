@@ -6,15 +6,12 @@ toolchain go1.22.0
 
 // replace github.com/go-raptor/raptor => ../../go-raptor/raptor
 
-require github.com/go-raptor/raptor v0.6.6
+require github.com/go-raptor/raptor v0.7.0
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/gofiber/fiber/v2 v2.52.1 // indirect
-	github.com/gofiber/template v1.8.3 // indirect
-	github.com/gofiber/template/html/v2 v2.1.1 // indirect
-	github.com/gofiber/utils v1.1.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
