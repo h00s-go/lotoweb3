@@ -2,16 +2,16 @@ module github.com/h00s/lotoweb3
 
 go 1.22
 
-toolchain go1.22.0
+toolchain go1.22.1
 
 // replace github.com/go-raptor/raptor => ../../go-raptor/raptor
 
-require github.com/go-raptor/raptor v0.7.0
+require github.com/go-raptor/raptor v0.7.1
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
-	github.com/gofiber/fiber/v2 v2.52.1 // indirect
+	github.com/gofiber/fiber/v2 v2.52.2 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
@@ -24,6 +24,6 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.52.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/sys v0.17.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
 	gorm.io/gorm v1.25.7 // indirect
 )
