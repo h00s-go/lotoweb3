@@ -6,6 +6,8 @@ github.com/go-raptor/raptor v0.7.0 h1:prHQ/bt7da8lpWIDRNzCTXb0lnfKVJqLb7B5fF/Hm0
 github.com/go-raptor/raptor v0.7.0/go.mod h1:StzU0QSAShWagjO3f0yHvrAOSB0IdPcPVPhxLH0F0yk=
 github.com/go-raptor/raptor v0.7.1 h1:R2Eps9FYoZ/CO+VlU9QRyGBEFhzfNqjpU4dpSTejHTI=
 github.com/go-raptor/raptor v0.7.1/go.mod h1:e6a074GbzWwyptvqckciNXo1bkK8fNlsRK6Rmb7U1mM=
+github.com/go-raptor/raptor v0.7.2 h1:n7/V1JF4k+BvTipolbIoQCjf2snHGwchyg3uf4Zs+e8=
+github.com/go-raptor/raptor v0.7.2/go.mod h1:oUJGVNhxNfTs9Xyrk+/BaCuGArxeCqFxAQkurCmTE24=
 github.com/gofiber/fiber/v2 v2.52.1 h1:1RoU2NS+b98o1L77sdl5mboGPiW+0Ypsi5oLmcYlgHI=
 github.com/gofiber/fiber/v2 v2.52.1/go.mod h1:KEOE+cXMhXG0zHc9d8+E38hoX+ZN7bhOtgeF2oT6jrQ=
 github.com/gofiber/fiber/v2 v2.52.2 h1:b0rYH6b06Df+4NyrbdptQL8ifuxw/Tf2DgfkZkDaxEo=
@@ -44,3 +46,5 @@ golang.org/x/sys v0.18.0 h1:DBdB3niSjOA/O0blCZBqDefyWNYveAYMNF1Wum0DYQ4=
 golang.org/x/sys v0.18.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
 gorm.io/gorm v1.25.7 h1:VsD6acwRjz2zFxGO50gPO6AkNs7KKnvfzUjHQhZDz/A=
 gorm.io/gorm v1.25.7/go.mod h1:hbnx/Oo0ChWMn1BIhpy1oYozzpM15i4YPuHDmfYtwg8=
+gorm.io/gorm v1.25.8 h1:WAGEZ/aEcznN4D03laj8DKnehe1e9gYQAjW8xyPRdeo=
+gorm.io/gorm v1.25.8/go.mod h1:hbnx/Oo0ChWMn1BIhpy1oYozzpM15i4YPuHDmfYtwg8=

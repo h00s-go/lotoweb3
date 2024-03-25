@@ -6,7 +6,7 @@ toolchain go1.22.1
 
 // replace github.com/go-raptor/raptor => ../../go-raptor/raptor
 
-require github.com/go-raptor/raptor v0.7.1
+require github.com/go-raptor/raptor v0.7.2
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
@@ -25,5 +25,5 @@ require (
 	github.com/valyala/fasthttp v1.52.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
-	gorm.io/gorm v1.25.7 // indirect
+	gorm.io/gorm v1.25.8 // indirect
 )
