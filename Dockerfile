@@ -1,12 +1,14 @@
 # Use the official Go image as the base image
 FROM golang:alpine AS backend
 
+RUN apk add --no-cache build-base
+
 WORKDIR /app
 
 COPY backend ./
 
 RUN go mod download && \
-    go build -o /out/lotoweb
+    GOOS=linux GOARCH=amd64 go build -o /out/lotoweb
 
 FROM oven/bun:latest AS frontend
 
