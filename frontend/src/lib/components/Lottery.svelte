@@ -10,17 +10,17 @@
     <table class="table table-hover">
       <thead>
         <tr>
-          { #each lottery.picks[0] as number, index }
+          {#each lottery.picks[0] as number, index}
             <th>#{ index + 1 }</th>
-          { /each }
+          {/each}
         </tr>
       </thead>
       <tbody>
-        { #each lottery.picks as pick }
+        {#each lottery.picks as pick}
           <tr>
-            { #each pick as number }
+            {#each pick as number}
               <td>{ number }</td>
-            { /each }
+            {/each}
           </tr>
         { /each }
       </tbody>
