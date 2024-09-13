@@ -3,7 +3,7 @@ package controllers
 import (
 	"strconv"
 
-	"github.com/go-raptor/raptor/v2"
+	"github.com/go-raptor/raptor/v3"
 	"github.com/h00s/lotoweb3/app/services"
 )
 
@@ -14,12 +14,12 @@ type LotteriesController struct {
 }
 
 func (hc *LotteriesController) PickOne(c *raptor.Context) error {
-	if c.Query("numbers") != "" && c.Query("max") != "" {
-		numbers, err := strconv.Atoi(c.Query("numbers"))
+	if c.QueryParam("numbers") != "" && c.QueryParam("max") != "" {
+		numbers, err := strconv.Atoi(c.QueryParam("numbers"))
 		if err != nil {
 			return err
 		}
-		max, err := strconv.Atoi(c.Query("max"))
+		max, err := strconv.Atoi(c.QueryParam("max"))
 		if err != nil {
 			return err
 		}
@@ -29,17 +29,17 @@ func (hc *LotteriesController) PickOne(c *raptor.Context) error {
 }
 
 func (hc *LotteriesController) PickMany(c *raptor.Context) error {
-	count, err := strconv.Atoi(c.Query("count"))
+	count, err := strconv.Atoi(c.QueryParam("count"))
 	if err != nil {
 		return err
 	}
 
-	numbers, err := strconv.Atoi(c.Query("numbers"))
+	numbers, err := strconv.Atoi(c.QueryParam("numbers"))
 	if err != nil {
 		return err
 	}
 
-	max, err := strconv.Atoi(c.Query("max"))
+	max, err := strconv.Atoi(c.QueryParam("max"))
 	if err != nil {
 		return err
 	}
