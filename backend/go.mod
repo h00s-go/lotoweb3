@@ -4,7 +4,7 @@ go 1.23.1
 
 // replace github.com/go-raptor/raptor => ../../go-raptor/raptor
 
-require github.com/go-raptor/raptor/v3 v3.0.0-alpha.9
+require github.com/go-raptor/raptor/v3 v3.0.1
 
 require (
 	github.com/BurntSushi/toml v1.4.0 // indirect
@@ -22,9 +22,9 @@ require (
 	github.com/valyala/fasttemplate v1.2.2 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
-	golang.org/x/crypto v0.24.0 // indirect
-	golang.org/x/net v0.26.0 // indirect
-	golang.org/x/sys v0.24.0 // indirect
-	golang.org/x/text v0.17.0 // indirect
-	golang.org/x/time v0.5.0 // indirect
+	golang.org/x/crypto v0.27.0 // indirect
+	golang.org/x/net v0.29.0 // indirect
+	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
+	golang.org/x/time v0.6.0 // indirect
 )
