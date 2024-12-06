@@ -4,7 +4,7 @@ go 1.23.1
 
 // replace github.com/go-raptor/raptor => ../../go-raptor/raptor
 
-require github.com/go-raptor/raptor/v3 v3.1.0
+require github.com/go-raptor/raptor/v3 v3.1.2
 
 require (
 	github.com/BurntSushi/toml v1.4.0 // indirect
