@@ -5,8 +5,8 @@ export async function lotteries(fetch, numbers, max) {
   let result = await response.json();
 
   return {
-    numbers: numbers,
-    max: max,
+    numbers,
+    max,
     picks: result,
   };
 }
