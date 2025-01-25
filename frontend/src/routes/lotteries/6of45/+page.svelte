@@ -1,5 +1,5 @@
 <script>
-  import Lottery from '$lib/components/Lottery.svelte';
+  import Lottery from '$comp/common/Lottery.svelte';
 
   const { data } = $props();
 </script>
