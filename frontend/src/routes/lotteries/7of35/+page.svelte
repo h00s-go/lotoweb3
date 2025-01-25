@@ -1,7 +1,7 @@
 <script>
   import Lottery from '$lib/components/Lottery.svelte';
 
-  export let data;
+  const { data } = $props();
 </script>
 
 <Lottery lottery={ data.lottery } />

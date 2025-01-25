@@ -1,5 +1,5 @@
 <script>
-  export let lottery;
+  const { lottery } = $props();
 </script>
 
 <div class="card">
