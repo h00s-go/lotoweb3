@@ -4,10 +4,9 @@ go 1.24.0
 
 // replace github.com/go-raptor/raptor => ../../go-raptor/raptor
 
-require github.com/go-raptor/raptor/v3 v3.3.0
+require github.com/go-raptor/raptor/v3 v3.3.5
 
 require (
-	github.com/BurntSushi/toml v1.4.0 // indirect
 	github.com/go-raptor/connector v1.0.0 // indirect
 	github.com/labstack/echo/v4 v4.13.3 // indirect
 	github.com/labstack/gommon v0.4.2 // indirect
@@ -21,4 +20,5 @@ require (
 	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.10.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
