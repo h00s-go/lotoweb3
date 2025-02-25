@@ -2,10 +2,14 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/go-raptor/connector v1.0.0 h1:cXv1/++veq7HUNM3H0mh2FzpEIOaAbOQVDRSFg/kJAg=
 github.com/go-raptor/connector v1.0.0/go.mod h1:PhsrQUzoy0XBqUXTK7clyBT0ou0gDVMnxH0EpgpHcrI=
+github.com/go-raptor/connector v1.0.1 h1:wlfLqEM8GWrMQXtDThTCVSoPbFCeUZuYMH7CKXUn7yc=
+github.com/go-raptor/connector v1.0.1/go.mod h1:PhsrQUzoy0XBqUXTK7clyBT0ou0gDVMnxH0EpgpHcrI=
 github.com/go-raptor/raptor/v3 v3.3.4 h1:nGpPnTBdvE2OmOQATpYhQhyVuQOuowQq77NU7XL0CeQ=
 github.com/go-raptor/raptor/v3 v3.3.4/go.mod h1:4GaFa15jn7EFFj8lYevrChTAiTyxixLjCHN4UjKqvaA=
 github.com/go-raptor/raptor/v3 v3.3.5 h1:8BORFvsSNoAmLeMDEzxls1RJdxhGUTj9v0wJoSFbEbw=
 github.com/go-raptor/raptor/v3 v3.3.5/go.mod h1:4GaFa15jn7EFFj8lYevrChTAiTyxixLjCHN4UjKqvaA=
+github.com/go-raptor/raptor/v3 v3.3.7 h1:xBULDMpMJAF+NloPHXDW3REuK5MgM+W/HdWJd+XcwCc=
+github.com/go-raptor/raptor/v3 v3.3.7/go.mod h1:HI3QmSctlyoNoDOQ9bjc3RIQnn0P9+31WGPxyOrewlI=
 github.com/labstack/echo/v4 v4.13.3 h1:pwhpCPrTl5qry5HRdM5FwdXnhXSLSY+WE+YQSeCaafY=
 github.com/labstack/echo/v4 v4.13.3/go.mod h1:o90YNEeQWjDozo584l7AwhJMHN0bOC4tAfg+Xox9q5g=
 github.com/labstack/gommon v0.4.2 h1:F8qTUNXgG1+6WQmqoUWnz8WiEU60mXVVw0P4ht1WRA0=
@@ -26,6 +30,8 @@ github.com/valyala/fasttemplate v1.2.2 h1:lxLXG0uE3Qnshl9QyaK6XJxMXlQZELvChBOCmQ
 github.com/valyala/fasttemplate v1.2.2/go.mod h1:KHLXt3tVN2HBp8eijSv/kGJopbvo7S+qRAEEKiv+SiQ=
 golang.org/x/crypto v0.33.0 h1:IOBPskki6Lysi0lo9qQvbxiQ+FvsCC/YWOecCHAixus=
 golang.org/x/crypto v0.33.0/go.mod h1:bVdXmD7IV/4GdElGPozy6U7lWdRXA4qyRVGJV57uQ5M=
+golang.org/x/crypto v0.35.0 h1:b15kiHdrGCHrP6LvwaQ3c03kgNhhiMgvlhxHQhmg2Xs=
+golang.org/x/crypto v0.35.0/go.mod h1:dy7dXNW32cAb/6/PRuTNsix8T+vJAqvuIy5Bli/x0YQ=
 golang.org/x/net v0.35.0 h1:T5GQRQb2y08kTAByq9L4/bz8cipCdA8FbRTXewonqY8=
 golang.org/x/net v0.35.0/go.mod h1:EglIi67kWsHKlRzzVMUD93VMSWGFOMSZgxFjparz1Qk=
 golang.org/x/sys v0.6.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
