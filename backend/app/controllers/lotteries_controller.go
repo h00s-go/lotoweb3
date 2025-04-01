@@ -23,9 +23,9 @@ func (hc *LotteriesController) PickOne(c *raptor.Context) error {
 		if err != nil {
 			return err
 		}
-		return c.JSON(hc.Lotteries.PickOne(numbers, max))
+		return c.JSONResponse(hc.Lotteries.PickOne(numbers, max))
 	}
-	return c.JSON(hc.Lotteries.PickOne(6, 45))
+	return c.JSONResponse(hc.Lotteries.PickOne(6, 45))
 }
 
 func (hc *LotteriesController) PickMany(c *raptor.Context) error {
@@ -44,5 +44,5 @@ func (hc *LotteriesController) PickMany(c *raptor.Context) error {
 		return err
 	}
 
-	return c.JSON(hc.Lotteries.PickMany(count, numbers, max))
+	return c.JSONResponse(hc.Lotteries.PickMany(count, numbers, max))
 }
