@@ -13,36 +13,36 @@ type LotteriesController struct {
 	Lotteries *services.LotteriesService
 }
 
-func (hc *LotteriesController) PickOne(c *raptor.Context) error {
-	if c.QueryParam("numbers") != "" && c.QueryParam("max") != "" {
-		numbers, err := strconv.Atoi(c.QueryParam("numbers"))
+func (hc *LotteriesController) PickOne(s raptor.State) error {
+	if s.QueryParam("numbers") != "" && s.QueryParam("max") != "" {
+		numbers, err := strconv.Atoi(s.QueryParam("numbers"))
 		if err != nil {
 			return err
 		}
-		max, err := strconv.Atoi(c.QueryParam("max"))
+		max, err := strconv.Atoi(s.QueryParam("max"))
 		if err != nil {
 			return err
 		}
-		return c.JSONResponse(hc.Lotteries.PickOne(numbers, max))
+		return s.JSONResponse(hc.Lotteries.PickOne(numbers, max))
 	}
-	return c.JSONResponse(hc.Lotteries.PickOne(6, 45))
+	return s.JSONResponse(hc.Lotteries.PickOne(6, 45))
 }
 
-func (hc *LotteriesController) PickMany(c *raptor.Context) error {
-	count, err := strconv.Atoi(c.QueryParam("count"))
+func (hc *LotteriesController) PickMany(s raptor.State) error {
+	count, err := strconv.Atoi(s.QueryParam("count"))
 	if err != nil {
 		return err
 	}
 
-	numbers, err := strconv.Atoi(c.QueryParam("numbers"))
+	numbers, err := strconv.Atoi(s.QueryParam("numbers"))
 	if err != nil {
 		return err
 	}
 
-	max, err := strconv.Atoi(c.QueryParam("max"))
+	max, err := strconv.Atoi(s.QueryParam("max"))
 	if err != nil {
 		return err
 	}
 
-	return c.JSONResponse(hc.Lotteries.PickMany(count, numbers, max))
+	return s.JSONResponse(hc.Lotteries.PickMany(count, numbers, max))
 }
