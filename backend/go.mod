@@ -6,14 +6,14 @@ go 1.24.2
 
 require (
 	github.com/go-logistiq/handler v1.0.6
-	github.com/go-raptor/components v1.1.2
-	github.com/go-raptor/raptor/v3 v3.5.3
+	github.com/go-raptor/components v1.1.3
+	github.com/go-raptor/raptor/v3 v3.5.6
 )
 
 require (
-	github.com/go-raptor/config v1.0.1 // indirect
+	github.com/go-raptor/config v1.0.2 // indirect
 	github.com/go-raptor/connectors v1.0.2 // indirect
-	github.com/go-raptor/errs v1.0.0 // indirect
+	github.com/go-raptor/errs v1.0.1 // indirect
 	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/labstack/echo/v4 v4.13.3 // indirect
 	github.com/labstack/gommon v0.4.2 // indirect
