@@ -7,6 +7,7 @@ go 1.24.2
 require (
 	github.com/go-logistiq/handler v1.0.6
 	github.com/go-raptor/components v1.1.3
+	github.com/go-raptor/controllers/spa v1.0.2
 	github.com/go-raptor/raptor/v3 v3.5.6
 )
 

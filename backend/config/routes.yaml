@@ -5,3 +5,6 @@ routes:
         GET: Lotteries.PickOne
       /pick-many:
         GET: Lotteries.PickMany
+
+  /*:
+    GET: SPA.Index
