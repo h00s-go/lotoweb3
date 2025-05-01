@@ -2,8 +2,6 @@ module github.com/h00s/lotoweb3
 
 go 1.24.2
 
-replace github.com/go-raptor/raptor/v4 => ../../go-raptor/raptor/v4
-
 require (
 	github.com/go-logistiq/handler v1.0.6
 	github.com/go-raptor/raptor/v4 v4.0.0-alpha.2
