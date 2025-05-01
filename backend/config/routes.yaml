@@ -6,5 +6,5 @@ routes:
       /pick-many:
         GET: Lotteries.PickMany
 
-  /*:
+  /:
     GET: SPA.Index

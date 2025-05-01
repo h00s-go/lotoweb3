@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"slices"
 
-	"github.com/go-raptor/raptor/v3"
+	"github.com/go-raptor/raptor/v4"
 )
 
 type LotteriesService struct {

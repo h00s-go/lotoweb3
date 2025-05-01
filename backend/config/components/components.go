@@ -1,7 +1,7 @@
 package components
 
 import (
-	"github.com/go-raptor/raptor/v3"
+	"github.com/go-raptor/raptor/v4"
 )
 
 func New(c *raptor.Config) *raptor.Components {

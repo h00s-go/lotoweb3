@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/go-logistiq/handler"
-	"github.com/go-raptor/components"
-	"github.com/go-raptor/raptor/v3"
+	"github.com/go-raptor/raptor/v4"
+	"github.com/go-raptor/raptor/v4/core"
 )
 
 func NewLogistiqHandler(c *raptor.Config) (*handler.Handler, error) {
@@ -22,7 +22,7 @@ func NewLogistiqHandler(c *raptor.Config) (*handler.Handler, error) {
 	}
 
 	opts := handler.Options{
-		Level:     components.ParseLogLevel(c.GeneralConfig.LogLevel),
+		Level:     core.ParseLogLevel(c.GeneralConfig.LogLevel),
 		BatchSize: batchSize,
 		Timeout:   time.Duration(timeoutSeconds) * time.Second,
 		NATSURL:   c.AppConfig["logistiq_nats_url"],
