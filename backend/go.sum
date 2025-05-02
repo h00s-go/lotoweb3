@@ -6,10 +6,10 @@ github.com/go-raptor/config v1.0.2 h1:GMaUYQ9SLB/vEK9h/JSYOqs2WLbnhgJcLVzgZhZHZ2
 github.com/go-raptor/config v1.0.2/go.mod h1:SkoS8NFSnDxB6qpO7RvY2ndM3GlbvAVAyyFwKJlX8tA=
 github.com/go-raptor/connectors v1.0.2 h1:aAFXlSssExRE0HC6YIj+mSMR2ZP7tZn8qNxRADcekoE=
 github.com/go-raptor/connectors v1.0.2/go.mod h1:o5EsfDhvcxtH00SOh6ehIa2nE/Y2oCrSoorxrSGeEys=
-github.com/go-raptor/raptor/v4 v4.0.0-alpha.1 h1:z2WD/m0VTVhOwHP6YUgsNnP6VIVHSMcX6BH84gW2mWA=
-github.com/go-raptor/raptor/v4 v4.0.0-alpha.1/go.mod h1:5m1xtS5soP/0IW6NYZv9/ABH9D8Y/awX8DKvOLMJDTs=
-github.com/go-raptor/raptor/v4 v4.0.0-alpha.2 h1:Yq6KHNtPpE33rk8mV+tDh628LDq4ZK0qtiv6LhF57h8=
-github.com/go-raptor/raptor/v4 v4.0.0-alpha.2/go.mod h1:5m1xtS5soP/0IW6NYZv9/ABH9D8Y/awX8DKvOLMJDTs=
+github.com/go-raptor/middlewares/cors v1.0.1 h1:+0SjfGVwNcI/497ITDQwto9Y2NZFw60b2b+yMLwstLA=
+github.com/go-raptor/middlewares/cors v1.0.1/go.mod h1:SK1fT84M094IbxN4f3j8mTXeZ2K/UT8zHmSbvgL35As=
+github.com/go-raptor/raptor/v4 v4.0.0-alpha.3 h1:XYVK0wdhd81fmb+G48WXSfkYSAV6b3oS9y5HO/WIUMY=
+github.com/go-raptor/raptor/v4 v4.0.0-alpha.3/go.mod h1:5m1xtS5soP/0IW6NYZv9/ABH9D8Y/awX8DKvOLMJDTs=
 github.com/klauspost/compress v1.18.0 h1:c/Cqfb0r+Yi+JtIEq73FWXVkRonBlf0CRNYc8Zttxdo=
 github.com/klauspost/compress v1.18.0/go.mod h1:2Pp+KzxcywXVXMr50+X0Q/Lsb43OQHYWRCY2AiWywWQ=
 github.com/nats-io/nats.go v1.40.1 h1:MLjDkdsbGUeCMKFyCFoLnNn/HDTqcgVa3EQm+pMNDPk=

@@ -4,7 +4,8 @@ go 1.24.2
 
 require (
 	github.com/go-logistiq/handler v1.0.6
-	github.com/go-raptor/raptor/v4 v4.0.0-alpha.2
+	github.com/go-raptor/middlewares/cors v1.0.1
+	github.com/go-raptor/raptor/v4 v4.0.0-alpha.3
 )
 
 require (
