@@ -7,6 +7,7 @@ toolchain go1.24.5
 require (
 	github.com/go-logistiq/logistiq v1.0.17
 	github.com/go-raptor/middlewares/cors v1.0.2
+	github.com/go-raptor/middlewares/logger v1.0.0
 	github.com/go-raptor/raptor/v4 v4.0.2
 )
 
